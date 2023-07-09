@@ -1,4 +1,4 @@
-# pbkdf2
+# PBKDF2 User Interface
 PBKDF2 Function GUI in Pure TCL/TK
 
 <div align="center">
