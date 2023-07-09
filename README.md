@@ -1,10 +1,11 @@
 # pbkdf2
-PBKDF2 Function GUI in Pure TCL/TK
+PBKDF2 Function GUI in Pure TCL/TK and Autoit3
 
 <div align="center">
  <img src="PBKDF2.png"</img>
 </div>
 
+## PHP compliant
 ```php
 <?php
 $password = "password123";
