@@ -22,3 +22,8 @@ $derivedKeyHex = bin2hex($derivedKey);
 echo "PBKDF2 Password Hash: $derivedKeyHex";
 ?>
 ```
+## License
+
+This project is licensed under the ISC License.
+
+#### Copyright (c) 2020-2023 Pedro F. Albanese - ALBANESE Research Lab.
