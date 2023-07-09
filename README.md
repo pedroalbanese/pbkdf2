@@ -1,5 +1,5 @@
 # pbkdf2
-PBKDF2 Function GUI in Pure TCL/TK and Autoit3
+PBKDF2 Function GUI in Pure TCL/TK
 
 <div align="center">
  <img src="PBKDF2.png"</img>
@@ -8,10 +8,10 @@ PBKDF2 Function GUI in Pure TCL/TK and Autoit3
 ## PHP compliant
 ```php
 <?php
-$password = "password123";
+$password = "secret";
 $salt = "somesalt";
-$iterations = 1000;
-$keyLength = 32; // Key length in bytes
+$iterations = 512;
+$keyLength = 16; // Key length in bytes
 $algorithm = "sha256";
 
 $derivedKey = hash_pbkdf2($algorithm, $password, $salt, $iterations, $keyLength, true);
