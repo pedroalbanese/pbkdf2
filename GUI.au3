@@ -88,7 +88,7 @@ Func pbkdf2_example($password, $salt, $iterations, $keyLength)
     Local $xPasswordHash = ""
 
     ; PBKDF2 Example
-    $xPasswordHash = _CryptoNG_PBKDF2($password, $salt, $iterations, $keyLength, $CNG_BCRYPT_SHA256_ALGORITHM)
+    $xPasswordHash = _CryptoNG_PBKDF2($password, $salt, $iterations, $keyLength*8, $CNG_BCRYPT_SHA256_ALGORITHM)
     If @error Then
         ConsoleWrite("ERROR: " & _CryptoNG_LastErrorMessage() & @CRLF)
         Return ""
